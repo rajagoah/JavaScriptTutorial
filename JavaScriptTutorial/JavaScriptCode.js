@@ -1,1 +1,2 @@
-alert("I'm JavaScript!")
+let message = "hello world!!";
+alert(message);
