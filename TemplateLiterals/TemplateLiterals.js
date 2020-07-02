@@ -8,5 +8,17 @@ let myName = 'Aakarsh';
 let myCity = 'Pune';
 
 //using template literals
-alert(`I am ${myName} and I live in ${myCity}.`);
-alert('hello');
+console.log(`I am ${myName} and I live in ${myCity}.`);
+console.log('hello');
+
+//testing the typeof() function
+console.log(typeof(myName));
+console.log(typeof(myCity));
+
+//reassigning new values to the above variables
+myName = 112233;
+myCity = 'India';
+
+//printing to console
+console.log(typeof(myName));
+console.log(myCity)
