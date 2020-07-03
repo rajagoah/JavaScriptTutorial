@@ -6,8 +6,7 @@
 let example = true;
 
 if(example){
-	console.log('the example is set to true');
+	alert('the example is set to true');
 }else{
-	console.log('the example is set to false');
-
+	alert('the example is set to false');
 }
